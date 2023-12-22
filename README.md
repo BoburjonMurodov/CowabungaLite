@@ -16,6 +16,9 @@ ishlatish uchun tutorialni youtubedan topsangiz boladi
 ## Esda tuting!
 - Location Changer - iOS 17-16da ishlatmang!
 - OTA disabler'ni ishlatmang
+- Agarda windows ishlatyotgan bo'lsangiz windows requirements.txt fayliga qarang!
+
+## Features
 
 - WebClip Icon Theming
     - No Banner or Redirects!
@@ -130,12 +133,3 @@ ishlatish uchun tutorialni youtubedan topsangiz boladi
   <img alt="Apply Page" src="https://github.com/LeminLimez/CowabungaLite/blob/main/Images/Dark/Apply.png">
 </picture>
 
-
-## Credits
-- [Avangelista](https://github.com/Avangelista) for much of the restore backend and initial UI.
-- [iTech Expert](https://twitter.com/iTechExpert21) for various tweaks.
-- [libimobiledevice](https://libimobiledevice.org) for restoring and device algorithms.
-- [TrollTools](https://github.com/sourcelocation/TrollTools) for icon theming UI and keys for some springboard options.
-- [SourceLocation](https://github.com/sourcelocation) for explore page code.
-- [Cowabunga](https://github.com/leminlimez/Cowabunga) for part of the code and UI.
-- [iOS 15-16 disk images](https://github.com/mspvirajpatel/Xcode_Developer_Disk_Images)
