@@ -1,27 +1,21 @@
 ![Artboard](https://github.com/leminlimez/CowabungaLite/blob/2d9a503ad4f60b3cbbb5736cfbaa39b833c85c76/Cowabunga%20Lite/Assets.xcassets/AppIcon.appiconset/128-icon.png)
 # Cowabunga Lite
-A jailed customization toolbox for iOS 15+ on all devices.
+iOS 15+ uchun toolbox
 
-Official Website Here: https://cowabun.ga/
+**iOS 17.2+ :** Ishlatyotganda ehtiyot bo'ling. Agar "iPhone Partially Set Up"ni ko'rsangiz  "Continue with Partial Setup"ni bosing bosmasangiz iphone reset bo'b ketadi!
 
-**iOS 17.2+ Users:** Please be careful after using. If you see a screen showing "iPhone Partially Set Up", **click the button that says "Continue with Partial Setup"**, otherwise your phone's data will be erased!
+Set Up qlinyotganda "Do not transfer backup"ni bosing
 
-Please back up your devices before using this software! We are not responsible for damage to your device. **If you see the data transferring screen, you __MUST__ select Do Not Transfer Apps and Data**
+ishlatish uchun tutorialni youtubedan topsangiz boladi
 
-Join the [Discord](https://discord.gg/Cowabunga) for additional support and sneak peaks.
-Feel free to support my work on [Ko-Fi](https://ko-fi.com/leminlimez).
+## Ishlatish shartlari
+- "Find my iphone" o'chiq bo'lishi kerak.
+- Ishlatishdan avval telefoningzni backup qlib olish tavsiya etiladi.
+- Telefonga nimadur bo'lsa developer aybdor emas!
 
-## Requirements
-- A Mac running MacOS 11.0 (Big Sur) or higher (Can be a virtual machine/hackintosh)
-- An iOS device on iOS 15.0 or higher
-- Find My must be turned off while applying (can be turned back on afterwards)
-- Your device must not have MDM with backup encryption enabled
-
-## Installing
-Simply download the .zip that is for your MacOS version and run the app. Plug in your phone and start tweaking!
-
-## Features
-- Location Changer (iOS 16-)
+## Esda tuting!
+- Location Changer - iOS 17-16da ishlatmang!
+- OTA disabler'ni ishlatmang
 
 - WebClip Icon Theming
     - No Banner or Redirects!
@@ -136,11 +130,6 @@ Simply download the .zip that is for your MacOS version and run the app. Plug in
   <img alt="Apply Page" src="https://github.com/LeminLimez/CowabungaLite/blob/main/Images/Dark/Apply.png">
 </picture>
 
-## Building
-Just build like a normal Xcode project. Sign using your own team and bundle identifier. You can also build the .app file by running the command `xcodebuild CODE_SIGNING_ALLOWED=NO -scheme Cowabunga\ Lite -configuration release` inside the folder containing the xcodeproj.
-
-## How it works
-Cowabunga Lite applies tweaks by creating a partial restore of only the files being changed without wiping the device. It uses [libimobiledevice](https://libimobiledevice.org) to create the backups, restore them to the device, and read information about the device such as the device name, iOS version, and home screen apps.
 
 ## Credits
 - [Avangelista](https://github.com/Avangelista) for much of the restore backend and initial UI.
