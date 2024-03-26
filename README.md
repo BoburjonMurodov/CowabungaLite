@@ -6,7 +6,7 @@ iOS 15+ uchun toolbox
 
 Set Up qlinyotganda "Do not transfer backup"ni bosing
 
-ishlatish uchun tutorialni youtubedan topsangiz boladi
+ishlatish uchun tutorialni youtubedan topsangiz bo'ladi
 
 ## Ishlatish shartlari
 - "Find my iphone" o'chiq bo'lishi kerak.
